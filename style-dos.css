@@ -1,0 +1,63 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: rgb(255, 240, 253);
+}
+
+code {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* WRAPPER */
+
+.wrapper {
+	width: 948px;
+	margin: 0 auto;
+	background-color: rgb(255, 240, 251);
+	border: 3px solid rgb(222, 176, 210);
+}
+
+/* HEADER */
+
+.header {
+	padding-top: 20px;
+	background-color: rgb(229, 176, 230);
+}
+
+.heading {
+	padding-left: 10px;
+	margin: 0;
+}
+
+.intro {
+	padding-left: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    flex-grow: 1;
+    
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(148, 95, 146);
+    display: block;
+    padding: 10px 70px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(188, 198, 237);
+}
+
+/* MAIN */
+
+.main-content {
+	padding: 10px;
+}
